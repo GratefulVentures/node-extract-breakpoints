@@ -21,4 +21,11 @@ lab.experiment('Parsing media queries', function() {
     })
     done()
   })
+
+  lab.test('screen and (min-width: 0) and (max-width: 37.4375rem)', function (done) {
+    expect(parse('screen and (min-width: 0) and (max-width: 37.4375rem)')).to.include({
+      maxWidth: 599
+    })
+    done()
+  })
 })

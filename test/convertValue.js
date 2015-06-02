@@ -13,4 +13,10 @@ lab.experiment('Convert value', function () {
     expect(convertValue('20em')).to.equal(320)
     done()
   })
+
+  lab.test('"rem" to "px"', function (done) {
+
+    expect(convertValue('20.345rem')).to.equal(325.52)
+    done()
+  })
 })
