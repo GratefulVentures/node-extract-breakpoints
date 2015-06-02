@@ -1,0 +1,12 @@
+
+@media (min-width: 20em) {
+    body {
+        background: blue;
+    }
+}
+
+@media screen and (min-width: 40em) {
+    body {
+        background: red;
+    }
+}

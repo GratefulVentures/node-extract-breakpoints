@@ -1,0 +1,23 @@
+{
+  "name": "extract-breakpoints",
+  "version": "0.0.0",
+  "description": "Extract CSS breakpoints from responsive sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test"
+  },
+  "keywords": [
+    "css",
+    "breakpoints"
+  ],
+  "author": "Justin Rainbow <justin@grateful.ventures>",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^2.2.0",
+    "css-mediaquery": "^0.1.2"
+  },
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.9.0"
+  }
+}
